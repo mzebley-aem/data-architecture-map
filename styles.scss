@@ -198,6 +198,13 @@ h2 {
     padding: 0;
 }
 
+.model-wrapper {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap: var(--gap_md);
+    flex-wrap: wrap;
+}
 
 .model-header {
     background-color: var(--ink);
