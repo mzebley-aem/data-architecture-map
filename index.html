@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Architecture POC - Community of Innovation</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/cbc087da29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+    <div class="column-layout full-width center-x">
+        <div class="column-layout full-width max-width-desktop">
+            <h1 class="font-heavy">Architecture <span class="font-default">Model</span></h1>
+            <div class="model-wrapper row-layout full-width gap-md" id="model-wrapper">
+
+                <div class="data-provider column-layout">
+                    <div class="primary-data-provider column-layout full-width">
+                        <div class="model-header">
+                            <label>Primary</label>
+                            <a>
+                                <h2>
+                                    Data Provider
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="content">
+                            <label>Data Application</label>
+                            <div class="card theme">
+                                <a>
+                                    <h3>
+                                        Data Quality Layer
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </h3>
+                                </a>
+                                <div class="link-collection">
+                                    <a>
+                                        Business Rules Engine
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <a>
+                                        <span>Standardized Business Rules<br>Representation</span>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="api-provider column-layout">
+                        <div class="heading">
+                            <label>Data Application</label>
+                            <h2>By PW-20+ Domain</h2>
+                        </div>
+                        <div class="content">
+                            <div class="card small">
+                                <a>
+                                    <h3>
+                                        Early Childhood
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="card small">
+                                <a>
+                                    <h3>
+                                        K12
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </h3>
+                                </a>
+                                <div class="link-collection">
+                                    <a>
+                                        EdFi
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <a>
+                                        A4L/SIF
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <a>
+                                        OneEdTech
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card small">
+                                <a>
+                                    <h3>
+                                        Post Secondary
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </h3>
+                                </a>
+                                <div class="link-collection">
+                                    <a>
+                                        PESC
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card small">
+                                <a>
+                                    <h3>
+                                        Workforce
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="card small">
+                                <h3>
+                                    Adult Education
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="authorization row-layout">
+                    <div class="authorization-bar theme">
+                        <p>Federated Authentication</p>
+                    </div>
+                    <div class="authorization-bar gray">
+                        <p>Authentication</p>
+                    </div>
+                    <div class="authorization-bar yellow privacy">
+                        <p>Data Privacy Obligations</p>
+                    </div>
+                </div>
+
+                <div class="data-aggregator column-layout">
+                    <div class="model-header">
+                        <a>
+                            <h2>
+                                Data Aggregator
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </h2>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="left">
+                            <div class="first"></div>
+                            <div class="second">
+                                <p class="label">Longitudinal<br>Identity<br>Resolution</p>
+                            </div>
+                            <p class="label">Validation<br>Level</p>
+                        </div>
+                        <div class="right">
+                            <div class="metadata">
+                                <div class="bar">
+                                    <p>Data Lineage and Auditing</p>
+                                </div>
+                                <div class="bar">
+                                    <p>Data Dictionary and Metadata</p>
+                                </div>
+                            </div>
+                            <div class="archived-storage">
+                                <a>
+                                    Archived Storage
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card small">
+                                    <a>
+                                        <h3>
+                                            Landing
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </h3>
+                                    </a>
+                                    <div class="first"></div>
+                                    <div class="second"></div>
+                                    <div class="third">
+                                        <p class="step">1</p>
+                                        <p class="label">Schema Level</p>
+                                    </div>
+                                </div>
+                                <div class="white-space">
+                                    <div>
+                                        <p class="label">Storage<br>Type</p>
+                                    </div>
+                                    <div class="first"></div>
+                                    <div class="second">
+                                        <p class="label">Observe</p>
+                                        <p class="label">Govern</p>
+                                        <p class="label">Classify</p>
+                                    </div>
+                                </div>
+                                <div class="card dark-gray small">
+                                    <a>
+                                        <h3>
+                                            Operational
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </h3>
+                                    </a>
+                                    <div class="first">
+                                        <div class="retention left"></div>
+                                    </div>
+                                    <div class="second">
+                                        <div class="bars">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="third">
+                                        <p class="step">2</p>
+                                        <p class="label">Unit Level Comparison</p>
+                                    </div>
+                                </div>
+                                <div class="card gray small">
+                                    <a>
+                                        <h3>
+                                            Standardized
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </h3>
+                                    </a>
+                                    <div class="first">
+                                        <div class="retention">
+                                            <p>Data Retention</p>
+                                        </div>
+                                    </div>
+                                    <div class="second">
+                                        <div class="bars">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="third">
+                                        <p class="step">3</p>
+                                        <p class="label">Statistical and Longitudinal Analysis</p>
+                                    </div>
+                                </div>
+                                <div class="card small theme">
+                                    <a>
+                                        <h3>
+                                            Curated
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </h3>
+                                    </a>
+                                    <div class="first">
+                                        <div class="retention right"></div>
+                                    </div>
+                                    <div class="second">
+                                        <div class="bars">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="third">
+                                        <p class="step">4</p>
+                                        <p class="label">Business Rule Specific</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="data-layer">
+                                <h3>Data Quality Layer</h3>
+                                <div>
+                                    <a>
+                                        Business Rules Engine
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <a>
+                                        Standardized Business Rules Representation
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+
+                <div class="consumers column-layout">
+                    <div class="model-header">
+                        <a>
+                            <h2>
+                                Data Consumers
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </h2>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a>
+                            <img src="./img/1.png" alt="" role="decorative" />
+                            <label>
+                                <span>Federal<br>Reporting</span>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </label>
+                        </a>
+                        <div class="privacy-wrapper">
+                            <a>
+                                <img src="./img/2.png" alt="" role="decorative" />
+                                <label>
+                                    <span>Reporting/<br>Analytics</span>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                            </a>
+                            <a>
+                                <img src="./img/3.png" alt="" role="decorative" />
+                                <label>
+                                    <span>Operational<br>Systems</span>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                            </a>
+                            <a>
+                                <img src="./img/4.png" alt="" role="decorative" />
+                                <label>
+                                    <span>Consumer<br>Application</span>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                            </a>
+                            <a>
+                                <img src="./img/5.png" alt="" role="decorative" />
+                                <label>
+                                    <span>Data Sharing</span>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                            </a>
+                            <div class="footer">
+                                <p>Data Privacy</p>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
