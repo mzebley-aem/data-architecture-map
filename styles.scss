@@ -751,11 +751,11 @@ h2 {
         width: calc(100% - (var(--space_unit)*2));
         position: relative;
         .content {
-            .left {
+            .left:not(.retention) {
                 flex:1;
                 max-width: calc(var(--space_unit)*10);
             }
-            .right {
+            .right:not(.retention) {
                 flex:1;
             }
         }
@@ -822,6 +822,29 @@ h2 {
                 display: flex;
                 right: calc(((var(--border_width) * 2) + (var(--unit_md) * 2) + (var(--unit_sm))) * -1);
             }
+        }
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .data-provider {
+        flex-direction: column;
+        width:100%;
+        .primary-data-provider {
+            border: none;
+            max-width:unset;
+            border-bottom: var(--border_width) solid var(--ink);
+            .content {
+                max-width: calc(var(--space_unit) * 21);
+            }
+        }
+    }
+
+    .data-aggregator .content .left:not(.retention) {
+        flex: 0;
+        .label {
+            writing-mode: vertical-lr;
+            transform: scale(-1, -1);
         }
     }
 }
